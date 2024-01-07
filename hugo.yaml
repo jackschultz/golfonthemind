@@ -1,0 +1,45 @@
+baseURL: "https://golfonthemind-x3d9g.ondigitalocean.app/"
+languageCode: en-us
+title: Golf on the Mind
+author: Jack Schultz
+paginate: 10
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+profileMode:
+  enabled: false # needs to be explicitly set
+  title: Golf on the Mind
+  subtitle: "Golf on the Mind"
+  imageUrl: "<img location>"
+  imageWidth: 120
+  imageHeight: 120
+  imageTitle: my image
+  buttons:
+    - name: Posts
+      url: posts
+    - name: Tags
+      url: tags
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+    menu:
+      main:
+        - name: About
+          url: about
+          weight: 5
+        - name: Contact
+          url: contact
+          weight: 10
+        - name: Tags
+          url: tags
+          weight: 10
